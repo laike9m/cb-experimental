@@ -229,7 +229,7 @@ class Frame:
                     repr=utils.get_repr(value),
                     sources=event_info.sources,
                     filename=self.filename,
-                    lineno=self.offset_to_lineno[instr.offset],
+                    lineno=event_info.lineno,
                     offset=instr.offset,
                 )
             )
