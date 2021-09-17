@@ -1,0 +1,54 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "format_value_error",
+            "frame_name": "format_value_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 157
+        },
+        "identifiers": [
+            "A",
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 12,
+                "filename": "test_exception.py",
+                "id": "test_format_value_error:0",
+                "target": "A",
+                "value": "{\"py/type\":\"test_exception.test_format_value_error.<locals>.A\"}",
+                "repr": "<class 'test_exception.test_format_value_error.<locals>.A'>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 159,
+                "index": 1,
+                "offset": 16,
+                "filename": "test_exception.py",
+                "id": "test_format_value_error:1",
+                "target": "a",
+                "value": "{}",
+                "repr": "<test_exception.test_format_value_error.<locals>.A object>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 160,
+                "index": 2,
+                "offset": 40,
+                "filename": "test_exception.py",
+                "id": "test_format_value_error:2",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_format_value_error:1": [
+                "test_format_value_error:0"
+            ]
+        }
+    }
+}

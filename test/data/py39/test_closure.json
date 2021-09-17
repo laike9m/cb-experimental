@@ -1,57 +1,59 @@
 {
-    "metadata": {
-        "frame_id": "test_closure",
-        "frame_name": "test_closure",
-        "filename": "test_cellvar.py",
-        "defined_lineno": 25
-    },
-    "identifiers": [
-        "a",
-        "Foo",
-        "Bar"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 28,
-            "index": 0,
-            "offset": 10,
+    "response": {
+        "metadata": {
+            "frame_id": "test_closure",
+            "frame_name": "test_closure",
             "filename": "test_cellvar.py",
-            "id": "test_closure:0",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
+            "defined_lineno": 25
         },
-        {
-            "lineno": 30,
-            "index": 1,
-            "offset": 28,
-            "filename": "test_cellvar.py",
-            "id": "test_closure:1",
-            "target": "Foo",
-            "value": "{\"py/type\":\"test_cellvar.test_closure.<locals>.Foo\"}",
-            "repr": "<class 'test_cellvar.test_closure.<locals>.Foo'>",
-            "type": "Binding"
-        },
-        {
-            "lineno": 33,
-            "index": 2,
-            "offset": 48,
-            "filename": "test_cellvar.py",
-            "id": "test_closure:2",
-            "target": "Bar",
-            "value": "{\"py/type\":\"test_cellvar.test_closure.<locals>.Bar\"}",
-            "repr": "<class 'test_cellvar.test_closure.<locals>.Bar'>",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {
-        "test_closure:1": [
-            "test_closure:0"
+        "identifiers": [
+            "a",
+            "Foo",
+            "Bar"
         ],
-        "test_closure:2": [
-            "test_closure:1"
-        ]
+        "loops": [],
+        "events": [
+            {
+                "lineno": 28,
+                "index": 0,
+                "offset": 10,
+                "filename": "test_cellvar.py",
+                "id": "test_closure:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 30,
+                "index": 1,
+                "offset": 28,
+                "filename": "test_cellvar.py",
+                "id": "test_closure:1",
+                "target": "Foo",
+                "value": "{\"py/type\":\"test_cellvar.test_closure.<locals>.Foo\"}",
+                "repr": "<class 'test_cellvar.test_closure.<locals>.Foo'>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 33,
+                "index": 2,
+                "offset": 48,
+                "filename": "test_cellvar.py",
+                "id": "test_closure:2",
+                "target": "Bar",
+                "value": "{\"py/type\":\"test_cellvar.test_closure.<locals>.Bar\"}",
+                "repr": "<class 'test_cellvar.test_closure.<locals>.Bar'>",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_closure:1": [
+                "test_closure:0"
+            ],
+            "test_closure:2": [
+                "test_closure:1"
+            ]
+        }
     }
 }

@@ -1,84 +1,86 @@
 {
-    "metadata": {
-        "frame_id": "test_unary_operations",
-        "frame_name": "test_unary_operations",
-        "filename": "test_unary.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "a",
-        "b"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 12,
+    "response": {
+        "metadata": {
+            "frame_id": "test_unary_operations",
+            "frame_name": "test_unary_operations",
             "filename": "test_unary.py",
-            "id": "test_unary_operations:0",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "InitialValue"
+            "defined_lineno": 4
         },
-        {
-            "lineno": 9,
-            "index": 1,
-            "offset": 16,
-            "filename": "test_unary.py",
-            "id": "test_unary_operations:1",
-            "target": "b",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 2,
-            "offset": 22,
-            "filename": "test_unary.py",
-            "id": "test_unary_operations:2",
-            "target": "b",
-            "value": "-1",
-            "repr": "-1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 11,
-            "index": 3,
-            "offset": 28,
-            "filename": "test_unary.py",
-            "id": "test_unary_operations:3",
-            "target": "b",
-            "value": "false",
-            "repr": "False",
-            "type": "Binding"
-        },
-        {
-            "lineno": 12,
-            "index": 4,
-            "offset": 34,
-            "filename": "test_unary.py",
-            "id": "test_unary_operations:4",
-            "target": "b",
-            "value": "-2",
-            "repr": "-2",
-            "type": "Binding"
+        "identifiers": [
+            "a",
+            "b"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 12,
+                "filename": "test_unary.py",
+                "id": "test_unary_operations:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 9,
+                "index": 1,
+                "offset": 16,
+                "filename": "test_unary.py",
+                "id": "test_unary_operations:1",
+                "target": "b",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 2,
+                "offset": 22,
+                "filename": "test_unary.py",
+                "id": "test_unary_operations:2",
+                "target": "b",
+                "value": "-1",
+                "repr": "-1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 11,
+                "index": 3,
+                "offset": 28,
+                "filename": "test_unary.py",
+                "id": "test_unary_operations:3",
+                "target": "b",
+                "value": "false",
+                "repr": "False",
+                "type": "Binding"
+            },
+            {
+                "lineno": 12,
+                "index": 4,
+                "offset": 34,
+                "filename": "test_unary.py",
+                "id": "test_unary_operations:4",
+                "target": "b",
+                "value": "-2",
+                "repr": "-2",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_unary_operations:1": [
+                "test_unary_operations:0"
+            ],
+            "test_unary_operations:2": [
+                "test_unary_operations:0"
+            ],
+            "test_unary_operations:3": [
+                "test_unary_operations:0"
+            ],
+            "test_unary_operations:4": [
+                "test_unary_operations:0"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_unary_operations:1": [
-            "test_unary_operations:0"
-        ],
-        "test_unary_operations:2": [
-            "test_unary_operations:0"
-        ],
-        "test_unary_operations:3": [
-            "test_unary_operations:0"
-        ],
-        "test_unary_operations:4": [
-            "test_unary_operations:0"
-        ]
     }
 }

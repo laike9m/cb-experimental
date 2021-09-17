@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "build_set_type_error",
+            "frame_name": "build_set_type_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 91
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 93,
+                "index": 0,
+                "offset": 30,
+                "filename": "test_exception.py",
+                "id": "test_build_set_type_error:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

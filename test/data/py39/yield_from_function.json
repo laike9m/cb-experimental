@@ -1,36 +1,38 @@
 {
-    "metadata": {
-        "frame_id": "yield_from_function",
-        "frame_name": "yield_from_function",
-        "filename": "test_generator.py",
-        "defined_lineno": 74
-    },
-    "identifiers": [
-        "inner"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 0,
+    "response": {
+        "metadata": {
+            "frame_id": "yield_from_function",
+            "frame_name": "yield_from_function",
             "filename": "test_generator.py",
-            "id": "test_yield_from:0",
-            "target": "inner",
-            "value": "{\"repr\": \"<function test_yield_from.<locals>.inner>\"}",
-            "repr": "<function test_yield_from.<locals>.inner>",
-            "type": "InitialValue"
+            "defined_lineno": 74
         },
-        {
-            "lineno": 75,
-            "index": 1,
-            "offset": 14,
-            "filename": "test_generator.py",
-            "id": "test_yield_from:1",
-            "value": "null",
-            "repr": "None",
-            "type": "Return"
-        }
-    ],
-    "tracingResult": {}
+        "identifiers": [
+            "inner"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 0,
+                "filename": "test_generator.py",
+                "id": "test_yield_from:0",
+                "target": "inner",
+                "value": "{\"repr\": \"<function test_yield_from.<locals>.inner>\"}",
+                "repr": "<function test_yield_from.<locals>.inner>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 75,
+                "index": 1,
+                "offset": 14,
+                "filename": "test_generator.py",
+                "id": "test_yield_from:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

@@ -1,61 +1,63 @@
 {
-    "metadata": {
-        "frame_id": "test_continue_in_finally",
-        "frame_name": "test_continue_in_finally",
-        "filename": "test_block_py38.py",
-        "defined_lineno": 14
-    },
-    "identifiers": [
-        "x"
-    ],
-    "loops": [
-        {
-            "startOffset": 16,
-            "endOffset": 24,
-            "startLineno": 21
-        }
-    ],
-    "events": [
-        {
-            "lineno": 21,
-            "index": 0,
-            "offset": 18,
+    "response": {
+        "metadata": {
+            "frame_id": "test_continue_in_finally",
+            "frame_name": "test_continue_in_finally",
             "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally:0",
-            "target": "x",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
+            "defined_lineno": 14
         },
-        {
-            "lineno": 25,
-            "index": 1,
-            "offset": 24,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally:1",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 21,
-            "index": 2,
-            "offset": 18,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally:2",
-            "target": "x",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 25,
-            "index": 3,
-            "offset": 24,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally:3",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        }
-    ],
-    "tracingResult": {}
+        "identifiers": [
+            "x"
+        ],
+        "loops": [
+            {
+                "startOffset": 16,
+                "endOffset": 24,
+                "startLineno": 21
+            }
+        ],
+        "events": [
+            {
+                "lineno": 21,
+                "index": 0,
+                "offset": 18,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally:0",
+                "target": "x",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 1,
+                "offset": 24,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally:1",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 21,
+                "index": 2,
+                "offset": 18,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally:2",
+                "target": "x",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 3,
+                "offset": 24,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally:3",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

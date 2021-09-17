@@ -1,7 +1,7 @@
 from cyberbrain import Binding, Return, Symbol, InitialValue
 
 
-def test_multiple_decorators(trace):
+def test_multiple_decorators(trace, mocked_responses):
     def my_decorator(f):
         def inner(*args):
             a = 1
@@ -14,11 +14,11 @@ def test_multiple_decorators(trace):
     @my_decorator
     @my_decorator
     @trace
-    def original_func(number):
+    def original_function(number):
         a = [1, 2, 3]
         b = number
 
-    original_func(1)
+    original_function(1)
 
     assert trace.events == [
         Binding(

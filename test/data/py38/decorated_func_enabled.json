@@ -1,40 +1,42 @@
 {
-    "metadata": {
-        "frame_id": "decorated_func_enabled",
-        "frame_name": "decorated_func_enabled",
-        "filename": "test_api_disabled.py",
-        "defined_lineno": 16
-    },
-    "identifiers": [
-        "a"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 17,
-            "index": 0,
-            "offset": 2,
+    "response": {
+        "metadata": {
+            "frame_id": "decorated_func_enabled",
+            "frame_name": "decorated_func_enabled",
             "filename": "test_api_disabled.py",
-            "id": "test_decorator_with_argument:0",
-            "target": "a",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
+            "defined_lineno": 16
         },
-        {
-            "lineno": 18,
-            "index": 1,
-            "offset": 6,
-            "filename": "test_api_disabled.py",
-            "id": "test_decorator_with_argument:1",
-            "value": "2",
-            "repr": "2",
-            "type": "Return"
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 17,
+                "index": 0,
+                "offset": 2,
+                "filename": "test_api_disabled.py",
+                "id": "test_decorator_with_argument:0",
+                "target": "a",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 18,
+                "index": 1,
+                "offset": 6,
+                "filename": "test_api_disabled.py",
+                "id": "test_decorator_with_argument:1",
+                "value": "2",
+                "repr": "2",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_decorator_with_argument:1": [
+                "test_decorator_with_argument:0"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_decorator_with_argument:1": [
-            "test_decorator_with_argument:0"
-        ]
     }
 }

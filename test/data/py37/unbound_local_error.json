@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "unbound_local_error",
+            "frame_name": "unbound_local_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 224
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 227,
+                "index": 0,
+                "offset": 36,
+                "filename": "test_exception.py",
+                "id": "test_unbound_local_error:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

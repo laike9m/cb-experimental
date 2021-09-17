@@ -3,7 +3,7 @@ from hamcrest import *
 from cyberbrain import Binding, Symbol
 
 
-def test_import(tracer):
+def test_import(tracer, mocked_responses):
     tracer.start()
 
     import os  # IMPORT_NAME

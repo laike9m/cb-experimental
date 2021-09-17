@@ -1,69 +1,71 @@
 {
-    "metadata": {
-        "frame_id": "external_iterator_function",
-        "frame_name": "external_iterator_function",
-        "filename": "test_external_iterator.py",
-        "defined_lineno": 18
-    },
-    "identifiers": [
-        "iterator",
-        "x"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 19,
-            "index": 0,
-            "offset": 6,
+    "response": {
+        "metadata": {
+            "frame_id": "external_iterator_function",
+            "frame_name": "external_iterator_function",
             "filename": "test_external_iterator.py",
-            "id": "test_external_iterator:0",
-            "target": "iterator",
-            "value": "{\"repr\": \"<tuple_iterator object>\"}",
-            "repr": "<tuple_iterator object>",
-            "type": "Binding"
+            "defined_lineno": 18
         },
-        {
-            "lineno": 20,
-            "index": 1,
-            "offset": 14,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_iterator:1",
-            "target": "x",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 21,
-            "index": 2,
-            "offset": 22,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_iterator:2",
-            "target": "x",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 22,
-            "index": 3,
-            "offset": 26,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_iterator:3",
-            "value": "2",
-            "repr": "2",
-            "type": "Return"
+        "identifiers": [
+            "iterator",
+            "x"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 19,
+                "index": 0,
+                "offset": 6,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_iterator:0",
+                "target": "iterator",
+                "value": "{\"repr\": \"<tuple_iterator object>\"}",
+                "repr": "<tuple_iterator object>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 20,
+                "index": 1,
+                "offset": 14,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_iterator:1",
+                "target": "x",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 21,
+                "index": 2,
+                "offset": 22,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_iterator:2",
+                "target": "x",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 22,
+                "index": 3,
+                "offset": 26,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_iterator:3",
+                "value": "2",
+                "repr": "2",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_external_iterator:1": [
+                "test_external_iterator:0"
+            ],
+            "test_external_iterator:2": [
+                "test_external_iterator:0"
+            ],
+            "test_external_iterator:3": [
+                "test_external_iterator:2"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_external_iterator:1": [
-            "test_external_iterator:0"
-        ],
-        "test_external_iterator:2": [
-            "test_external_iterator:0"
-        ],
-        "test_external_iterator:3": [
-            "test_external_iterator:2"
-        ]
     }
 }

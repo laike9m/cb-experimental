@@ -1,55 +1,57 @@
 {
-    "metadata": {
-        "frame_id": "func",
-        "frame_name": "func",
-        "filename": "test_api_state.py",
-        "defined_lineno": 20
-    },
-    "identifiers": [
-        "b",
-        "a"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 20,
-            "index": 0,
-            "offset": 0,
+    "response": {
+        "metadata": {
+            "frame_id": "func",
+            "frame_name": "func",
             "filename": "test_api_state.py",
-            "id": "test_decorator_multiple_times:0",
-            "target": "b",
-            "value": "1",
-            "repr": "1",
-            "type": "InitialValue"
+            "defined_lineno": 16
         },
-        {
-            "lineno": 21,
-            "index": 1,
-            "offset": 2,
-            "filename": "test_api_state.py",
-            "id": "test_decorator_multiple_times:1",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 22,
-            "index": 2,
-            "offset": 6,
-            "filename": "test_api_state.py",
-            "id": "test_decorator_multiple_times:2",
-            "value": "1",
-            "repr": "1",
-            "type": "Return"
-        }
-    ],
-    "tracingResult": {
-        "test_decorator_multiple_times:1": [
-            "test_decorator_multiple_times:0"
+        "identifiers": [
+            "b",
+            "a"
         ],
-        "test_decorator_multiple_times:2": [
-            "test_decorator_multiple_times:1"
-        ]
+        "loops": [],
+        "events": [
+            {
+                "lineno": 16,
+                "index": 0,
+                "offset": 0,
+                "filename": "test_api_state.py",
+                "id": "test_decorator_multiple_times:0",
+                "target": "b",
+                "value": "1",
+                "repr": "1",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 17,
+                "index": 1,
+                "offset": 2,
+                "filename": "test_api_state.py",
+                "id": "test_decorator_multiple_times:1",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 18,
+                "index": 2,
+                "offset": 6,
+                "filename": "test_api_state.py",
+                "id": "test_decorator_multiple_times:2",
+                "value": "1",
+                "repr": "1",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_decorator_multiple_times:1": [
+                "test_decorator_multiple_times:0"
+            ],
+            "test_decorator_multiple_times:2": [
+                "test_decorator_multiple_times:1"
+            ]
+        }
     }
 }

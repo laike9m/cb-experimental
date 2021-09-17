@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "name_error",
+            "frame_name": "name_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 60
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 65,
+                "index": 0,
+                "offset": 96,
+                "filename": "test_exception.py",
+                "id": "test_name_error:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

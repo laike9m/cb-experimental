@@ -1,26 +1,28 @@
 {
-    "metadata": {
-        "frame_id": "test_numpy",
-        "frame_name": "test_numpy",
-        "filename": "test_numpy.py",
-        "defined_lineno": 6
-    },
-    "identifiers": [
-        "x"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 8,
-            "index": 0,
-            "offset": 22,
+    "response": {
+        "metadata": {
+            "frame_id": "test_numpy",
+            "frame_name": "test_numpy",
             "filename": "test_numpy.py",
-            "id": "test_numpy:0",
-            "target": "x",
-            "value": "{\"dtype\":\"int64\",\"values\":[6,7,8]}",
-            "repr": "array([6, 7, 8])",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {}
+            "defined_lineno": 6
+        },
+        "identifiers": [
+            "x"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 8,
+                "index": 0,
+                "offset": 22,
+                "filename": "test_numpy.py",
+                "id": "test_numpy:0",
+                "target": "x",
+                "value": "{\"dtype\":\"int64\",\"values\":[6,7,8]}",
+                "repr": "array([6, 7, 8])",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

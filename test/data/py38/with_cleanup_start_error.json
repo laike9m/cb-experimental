@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "with_cleanup_start_error",
+            "frame_name": "with_cleanup_start_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 214
+        },
+        "identifiers": [
+            "A"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 12,
+                "filename": "test_exception.py",
+                "id": "test_with_cleanup_start_error:0",
+                "target": "A",
+                "value": "{\"py/type\":\"test_exception.test_with_cleanup_start_error.<locals>.A\"}",
+                "repr": "<class 'test_exception.test_...anup_start_error.<locals>.A'>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 217,
+                "index": 1,
+                "offset": 42,
+                "filename": "test_exception.py",
+                "id": "test_with_cleanup_start_error:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

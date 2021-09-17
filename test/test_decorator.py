@@ -1,7 +1,7 @@
 from cyberbrain import Binding, Return, Symbol
 
 
-def test_trace_decorated_function(trace):
+def test_trace_decorated_function(trace, mocked_responses):
     def my_decorator(f):
         def inner(*args):
             a = 1

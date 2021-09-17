@@ -1,209 +1,211 @@
 {
-    "metadata": {
-        "frame_id": "test_nested_loop",
-        "frame_name": "test_nested_loop",
-        "filename": "test_nested_loop.py",
-        "defined_lineno": 5
-    },
-    "identifiers": [
-        "i",
-        "j",
-        "a"
-    ],
-    "loops": [
-        {
-            "startOffset": 28,
-            "endOffset": 40,
-            "startLineno": 9
+    "response": {
+        "metadata": {
+            "frame_id": "test_nested_loop",
+            "frame_name": "test_nested_loop",
+            "filename": "test_nested_loop.py",
+            "defined_lineno": 5
         },
-        {
-            "startOffset": 16,
-            "endOffset": 42,
-            "startLineno": 8
+        "identifiers": [
+            "i",
+            "j",
+            "a"
+        ],
+        "loops": [
+            {
+                "startOffset": 28,
+                "endOffset": 40,
+                "startLineno": 9
+            },
+            {
+                "startOffset": 16,
+                "endOffset": 42,
+                "startLineno": 8
+            }
+        ],
+        "events": [
+            {
+                "lineno": 8,
+                "index": 0,
+                "offset": 18,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:0",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 1,
+                "offset": 30,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:1",
+                "target": "j",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 2,
+                "offset": 38,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:2",
+                "target": "a",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 3,
+                "offset": 40,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:3",
+                "jump_target": 28,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 9,
+                "index": 4,
+                "offset": 30,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:4",
+                "target": "j",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 5,
+                "offset": 38,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:5",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 6,
+                "offset": 40,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:6",
+                "jump_target": 28,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 10,
+                "index": 7,
+                "offset": 42,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:7",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 8,
+                "index": 8,
+                "offset": 18,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:8",
+                "target": "i",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 9,
+                "offset": 30,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:9",
+                "target": "j",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 10,
+                "offset": 38,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:10",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 11,
+                "offset": 40,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:11",
+                "jump_target": 28,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 9,
+                "index": 12,
+                "offset": 30,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:12",
+                "target": "j",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 13,
+                "offset": 38,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:13",
+                "target": "a",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 14,
+                "offset": 40,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:14",
+                "jump_target": 28,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 10,
+                "index": 15,
+                "offset": 42,
+                "filename": "test_nested_loop.py",
+                "id": "test_nested_loop:15",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            }
+        ],
+        "tracingResult": {
+            "test_nested_loop:2": [
+                "test_nested_loop:0",
+                "test_nested_loop:1"
+            ],
+            "test_nested_loop:5": [
+                "test_nested_loop:0",
+                "test_nested_loop:4"
+            ],
+            "test_nested_loop:10": [
+                "test_nested_loop:8",
+                "test_nested_loop:9"
+            ],
+            "test_nested_loop:13": [
+                "test_nested_loop:8",
+                "test_nested_loop:12"
+            ]
         }
-    ],
-    "events": [
-        {
-            "lineno": 8,
-            "index": 0,
-            "offset": 18,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:0",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 1,
-            "offset": 30,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:1",
-            "target": "j",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 2,
-            "offset": 38,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:2",
-            "target": "a",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 3,
-            "offset": 40,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:3",
-            "jump_target": 28,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 9,
-            "index": 4,
-            "offset": 30,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:4",
-            "target": "j",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 5,
-            "offset": 38,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:5",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 6,
-            "offset": 40,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:6",
-            "jump_target": 28,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 10,
-            "index": 7,
-            "offset": 42,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:7",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 8,
-            "index": 8,
-            "offset": 18,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:8",
-            "target": "i",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 9,
-            "offset": 30,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:9",
-            "target": "j",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 10,
-            "offset": 38,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:10",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 11,
-            "offset": 40,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:11",
-            "jump_target": 28,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 9,
-            "index": 12,
-            "offset": 30,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:12",
-            "target": "j",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 13,
-            "offset": 38,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:13",
-            "target": "a",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 14,
-            "offset": 40,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:14",
-            "jump_target": 28,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 10,
-            "index": 15,
-            "offset": 42,
-            "filename": "test_nested_loop.py",
-            "id": "test_nested_loop:15",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        }
-    ],
-    "tracingResult": {
-        "test_nested_loop:2": [
-            "test_nested_loop:0",
-            "test_nested_loop:1"
-        ],
-        "test_nested_loop:5": [
-            "test_nested_loop:0",
-            "test_nested_loop:4"
-        ],
-        "test_nested_loop:10": [
-            "test_nested_loop:8",
-            "test_nested_loop:9"
-        ],
-        "test_nested_loop:13": [
-            "test_nested_loop:8",
-            "test_nested_loop:12"
-        ]
     }
 }

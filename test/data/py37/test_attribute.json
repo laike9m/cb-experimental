@@ -1,82 +1,84 @@
 {
-    "metadata": {
-        "frame_id": "test_attribute",
-        "frame_name": "test_attribute",
-        "filename": "test_attribute.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "a2",
-        "a1"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 40,
+    "response": {
+        "metadata": {
+            "frame_id": "test_attribute",
+            "frame_name": "test_attribute",
             "filename": "test_attribute.py",
-            "id": "test_attribute:0",
-            "target": "a2",
-            "value": "{\"y\":1}",
-            "repr": "<test_attribute.test_attribute.<locals>.A object>",
-            "type": "InitialValue"
+            "defined_lineno": 4
         },
-        {
-            "lineno": -1,
-            "index": 1,
-            "offset": 42,
-            "filename": "test_attribute.py",
-            "id": "test_attribute:1",
-            "target": "a1",
-            "value": "{}",
-            "repr": "<test_attribute.test_attribute.<locals>.A object>",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 14,
-            "index": 2,
-            "offset": 44,
-            "filename": "test_attribute.py",
-            "id": "test_attribute:2",
-            "target": "a1",
-            "value": "{\"x\":{\"y\":1}}",
-            "repr": "<test_attribute.test_attribute.<locals>.A object>",
-            "type": "Mutation"
-        },
-        {
-            "lineno": 15,
-            "index": 3,
-            "offset": 52,
-            "filename": "test_attribute.py",
-            "id": "test_attribute:3",
-            "target": "a1",
-            "value": "{\"x\":{\"y\":2}}",
-            "repr": "<test_attribute.test_attribute.<locals>.A object>",
-            "type": "Mutation"
-        },
-        {
-            "lineno": 16,
-            "index": 4,
-            "offset": 56,
-            "filename": "test_attribute.py",
-            "id": "test_attribute:4",
-            "target": "a1",
-            "value": "{}",
-            "repr": "<test_attribute.test_attribute.<locals>.A object>",
-            "type": "Mutation"
+        "identifiers": [
+            "a2",
+            "a1"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 40,
+                "filename": "test_attribute.py",
+                "id": "test_attribute:0",
+                "target": "a2",
+                "value": "{\"y\":1}",
+                "repr": "<test_attribute.test_attribute.<locals>.A object>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": -1,
+                "index": 1,
+                "offset": 42,
+                "filename": "test_attribute.py",
+                "id": "test_attribute:1",
+                "target": "a1",
+                "value": "{}",
+                "repr": "<test_attribute.test_attribute.<locals>.A object>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 14,
+                "index": 2,
+                "offset": 44,
+                "filename": "test_attribute.py",
+                "id": "test_attribute:2",
+                "target": "a1",
+                "value": "{\"x\":{\"y\":1}}",
+                "repr": "<test_attribute.test_attribute.<locals>.A object>",
+                "type": "Mutation"
+            },
+            {
+                "lineno": 15,
+                "index": 3,
+                "offset": 52,
+                "filename": "test_attribute.py",
+                "id": "test_attribute:3",
+                "target": "a1",
+                "value": "{\"x\":{\"y\":2}}",
+                "repr": "<test_attribute.test_attribute.<locals>.A object>",
+                "type": "Mutation"
+            },
+            {
+                "lineno": 16,
+                "index": 4,
+                "offset": 56,
+                "filename": "test_attribute.py",
+                "id": "test_attribute:4",
+                "target": "a1",
+                "value": "{}",
+                "repr": "<test_attribute.test_attribute.<locals>.A object>",
+                "type": "Mutation"
+            }
+        ],
+        "tracingResult": {
+            "test_attribute:2": [
+                "test_attribute:1",
+                "test_attribute:0"
+            ],
+            "test_attribute:3": [
+                "test_attribute:2"
+            ],
+            "test_attribute:4": [
+                "test_attribute:3"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_attribute:2": [
-            "test_attribute:1",
-            "test_attribute:0"
-        ],
-        "test_attribute:3": [
-            "test_attribute:2"
-        ],
-        "test_attribute:4": [
-            "test_attribute:3"
-        ]
     }
 }

@@ -1,46 +1,48 @@
 {
-    "metadata": {
-        "frame_id": "test_deref_func",
-        "frame_name": "test_deref_func",
-        "filename": "test_cellvar.py",
-        "defined_lineno": 8
-    },
-    "identifiers": [
-        "a"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 10,
+    "response": {
+        "metadata": {
+            "frame_id": "test_deref_func",
+            "frame_name": "test_deref_func",
             "filename": "test_cellvar.py",
-            "id": "test_deref:0",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "InitialValue"
+            "defined_lineno": 8
         },
-        {
-            "lineno": 12,
-            "index": 1,
-            "offset": 18,
-            "filename": "test_cellvar.py",
-            "id": "test_deref:1",
-            "target": "a",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 13,
-            "index": 2,
-            "offset": 20,
-            "filename": "test_cellvar.py",
-            "id": "test_deref:2",
-            "target": "a",
-            "type": "Deletion"
-        }
-    ],
-    "tracingResult": {}
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 10,
+                "filename": "test_cellvar.py",
+                "id": "test_deref:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 12,
+                "index": 1,
+                "offset": 18,
+                "filename": "test_cellvar.py",
+                "id": "test_deref:1",
+                "target": "a",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 13,
+                "index": 2,
+                "offset": 20,
+                "filename": "test_cellvar.py",
+                "id": "test_deref:2",
+                "target": "a",
+                "type": "Deletion"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

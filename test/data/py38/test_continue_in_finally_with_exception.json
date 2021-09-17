@@ -1,61 +1,63 @@
 {
-    "metadata": {
-        "frame_id": "test_continue_in_finally_with_exception",
-        "frame_name": "test_continue_in_finally_with_exception",
-        "filename": "test_block_py38.py",
-        "defined_lineno": 44
-    },
-    "identifiers": [
-        "x"
-    ],
-    "loops": [
-        {
-            "startOffset": 16,
-            "endOffset": 36,
-            "startLineno": 55
-        }
-    ],
-    "events": [
-        {
-            "lineno": 55,
-            "index": 0,
-            "offset": 18,
+    "response": {
+        "metadata": {
+            "frame_id": "test_continue_in_finally_with_exception",
+            "frame_name": "test_continue_in_finally_with_exception",
             "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally_with_exception:0",
-            "target": "x",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
+            "defined_lineno": 44
         },
-        {
-            "lineno": 59,
-            "index": 1,
-            "offset": 36,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally_with_exception:1",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 55,
-            "index": 2,
-            "offset": 18,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally_with_exception:2",
-            "target": "x",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 59,
-            "index": 3,
-            "offset": 36,
-            "filename": "test_block_py38.py",
-            "id": "test_continue_in_finally_with_exception:3",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        }
-    ],
-    "tracingResult": {}
+        "identifiers": [
+            "x"
+        ],
+        "loops": [
+            {
+                "startOffset": 16,
+                "endOffset": 36,
+                "startLineno": 55
+            }
+        ],
+        "events": [
+            {
+                "lineno": 55,
+                "index": 0,
+                "offset": 18,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally_with_exception:0",
+                "target": "x",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 59,
+                "index": 1,
+                "offset": 36,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally_with_exception:1",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 55,
+                "index": 2,
+                "offset": 18,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally_with_exception:2",
+                "target": "x",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 59,
+                "index": 3,
+                "offset": 36,
+                "filename": "test_block_py38.py",
+                "id": "test_continue_in_finally_with_exception:3",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

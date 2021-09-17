@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "unpack_type_error",
+            "frame_name": "unpack_type_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 123
+        },
+        "identifiers": [
+            "f"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 104,
+                "filename": "test_exception.py",
+                "id": "test_unpack_type_error:0",
+                "target": "f",
+                "value": "{\"repr\": \"<function test_unpack_type_error.<locals>.f>\"}",
+                "repr": "<function test_unpack_type_error.<locals>.f>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 146,
+                "index": 1,
+                "offset": 254,
+                "filename": "test_exception.py",
+                "id": "test_unpack_type_error:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

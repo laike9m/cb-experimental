@@ -1,351 +1,353 @@
 {
-    "metadata": {
-        "frame_id": "test_inplace_operations",
-        "frame_name": "test_inplace_operations",
-        "filename": "test_inplace.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "a1",
-        "b",
-        "a2",
-        "a3",
-        "a4",
-        "a5",
-        "a6",
-        "a7",
-        "a8",
-        "a9",
-        "a10",
-        "a11",
-        "a12"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 60,
+    "response": {
+        "metadata": {
+            "frame_id": "test_inplace_operations",
+            "frame_name": "test_inplace_operations",
             "filename": "test_inplace.py",
-            "id": "test_inplace_operations:0",
-            "target": "a1",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
+            "defined_lineno": 4
         },
-        {
-            "lineno": -1,
-            "index": 1,
-            "offset": 62,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:1",
-            "target": "b",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 10,
-            "index": 2,
-            "offset": 66,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:2",
-            "target": "a1",
-            "value": "4",
-            "repr": "4",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 3,
-            "offset": 68,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:3",
-            "target": "a2",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 11,
-            "index": 4,
-            "offset": 74,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:4",
-            "target": "a2",
-            "value": "4",
-            "repr": "4",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 5,
-            "offset": 76,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:5",
-            "target": "a3",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 12,
-            "index": 6,
-            "offset": 82,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:6",
-            "target": "a3",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 7,
-            "offset": 84,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:7",
-            "target": "a4",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 13,
-            "index": 8,
-            "offset": 90,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:8",
-            "target": "a4",
-            "value": "1.0",
-            "repr": "1.0",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 9,
-            "offset": 92,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:9",
-            "target": "a5",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 14,
-            "index": 10,
-            "offset": 98,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:10",
-            "target": "a5",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 11,
-            "offset": 100,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:11",
-            "target": "a6",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 15,
-            "index": 12,
-            "offset": 106,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:12",
-            "target": "a6",
-            "value": "4",
-            "repr": "4",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 13,
-            "offset": 108,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:13",
-            "target": "a7",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 16,
-            "index": 14,
-            "offset": 114,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:14",
-            "target": "a7",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 15,
-            "offset": 116,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:15",
-            "target": "a8",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 17,
-            "index": 16,
-            "offset": 122,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:16",
-            "target": "a8",
-            "value": "8",
-            "repr": "8",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 17,
-            "offset": 124,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:17",
-            "target": "a9",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 18,
-            "index": 18,
-            "offset": 130,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:18",
-            "target": "a9",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 19,
-            "offset": 132,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:19",
-            "target": "a10",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 19,
-            "index": 20,
-            "offset": 138,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:20",
-            "target": "a10",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 21,
-            "offset": 140,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:21",
-            "target": "a11",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 20,
-            "index": 22,
-            "offset": 146,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:22",
-            "target": "a11",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 23,
-            "offset": 148,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:23",
-            "target": "a12",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 21,
-            "index": 24,
-            "offset": 154,
-            "filename": "test_inplace.py",
-            "id": "test_inplace_operations:24",
-            "target": "a12",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
+        "identifiers": [
+            "a1",
+            "b",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10",
+            "a11",
+            "a12"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 60,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:0",
+                "target": "a1",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": -1,
+                "index": 1,
+                "offset": 62,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:1",
+                "target": "b",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 10,
+                "index": 2,
+                "offset": 66,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:2",
+                "target": "a1",
+                "value": "4",
+                "repr": "4",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 3,
+                "offset": 68,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:3",
+                "target": "a2",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 11,
+                "index": 4,
+                "offset": 74,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:4",
+                "target": "a2",
+                "value": "4",
+                "repr": "4",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 5,
+                "offset": 76,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:5",
+                "target": "a3",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 12,
+                "index": 6,
+                "offset": 82,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:6",
+                "target": "a3",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 7,
+                "offset": 84,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:7",
+                "target": "a4",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 13,
+                "index": 8,
+                "offset": 90,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:8",
+                "target": "a4",
+                "value": "1.0",
+                "repr": "1.0",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 9,
+                "offset": 92,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:9",
+                "target": "a5",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 14,
+                "index": 10,
+                "offset": 98,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:10",
+                "target": "a5",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 11,
+                "offset": 100,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:11",
+                "target": "a6",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 15,
+                "index": 12,
+                "offset": 106,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:12",
+                "target": "a6",
+                "value": "4",
+                "repr": "4",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 13,
+                "offset": 108,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:13",
+                "target": "a7",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 16,
+                "index": 14,
+                "offset": 114,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:14",
+                "target": "a7",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 15,
+                "offset": 116,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:15",
+                "target": "a8",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 17,
+                "index": 16,
+                "offset": 122,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:16",
+                "target": "a8",
+                "value": "8",
+                "repr": "8",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 17,
+                "offset": 124,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:17",
+                "target": "a9",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 18,
+                "index": 18,
+                "offset": 130,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:18",
+                "target": "a9",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 19,
+                "offset": 132,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:19",
+                "target": "a10",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 19,
+                "index": 20,
+                "offset": 138,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:20",
+                "target": "a10",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 21,
+                "offset": 140,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:21",
+                "target": "a11",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 20,
+                "index": 22,
+                "offset": 146,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:22",
+                "target": "a11",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 23,
+                "offset": 148,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:23",
+                "target": "a12",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 21,
+                "index": 24,
+                "offset": 154,
+                "filename": "test_inplace.py",
+                "id": "test_inplace_operations:24",
+                "target": "a12",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_inplace_operations:2": [
+                "test_inplace_operations:0",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:4": [
+                "test_inplace_operations:3",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:6": [
+                "test_inplace_operations:5",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:8": [
+                "test_inplace_operations:7",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:10": [
+                "test_inplace_operations:9",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:12": [
+                "test_inplace_operations:11",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:14": [
+                "test_inplace_operations:13",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:16": [
+                "test_inplace_operations:15",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:18": [
+                "test_inplace_operations:17",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:20": [
+                "test_inplace_operations:19",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:22": [
+                "test_inplace_operations:21",
+                "test_inplace_operations:1"
+            ],
+            "test_inplace_operations:24": [
+                "test_inplace_operations:23",
+                "test_inplace_operations:1"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_inplace_operations:2": [
-            "test_inplace_operations:0",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:4": [
-            "test_inplace_operations:3",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:6": [
-            "test_inplace_operations:5",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:8": [
-            "test_inplace_operations:7",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:10": [
-            "test_inplace_operations:9",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:12": [
-            "test_inplace_operations:11",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:14": [
-            "test_inplace_operations:13",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:16": [
-            "test_inplace_operations:15",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:18": [
-            "test_inplace_operations:17",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:20": [
-            "test_inplace_operations:19",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:22": [
-            "test_inplace_operations:21",
-            "test_inplace_operations:1"
-        ],
-        "test_inplace_operations:24": [
-            "test_inplace_operations:23",
-            "test_inplace_operations:1"
-        ]
     }
 }

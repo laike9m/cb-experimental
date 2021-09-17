@@ -1,42 +1,44 @@
 {
-    "metadata": {
-        "frame_id": "test_pandas",
-        "frame_name": "test_pandas",
-        "filename": "test_pandas.py",
-        "defined_lineno": 6
-    },
-    "identifiers": [
-        "baby_data_set",
-        "df"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 8,
-            "index": 0,
-            "offset": 20,
+    "response": {
+        "metadata": {
+            "frame_id": "test_pandas",
+            "frame_name": "test_pandas",
             "filename": "test_pandas.py",
-            "id": "test_pandas:0",
-            "target": "baby_data_set",
-            "value": "[[\"Bob\",968],[\"Jessica\",155],[\"Mary\",77],[\"John\",578],[\"Mel\",973]]",
-            "repr": "[('Bob', 968), ('Jessica', 155), ('Mary', 77), ('John', 578), ('Mel', 973)]",
-            "type": "Binding"
+            "defined_lineno": 6
         },
-        {
-            "lineno": 15,
-            "index": 1,
-            "offset": 38,
-            "filename": "test_pandas.py",
-            "id": "test_pandas:1",
-            "target": "df",
-            "value": "{\"values\":\"Names,Births\\nBob,968\\nJessica,155\\nMary,77\\nJohn,578\\nMel,973\\n\",\"txt\":true,\"meta\":{\"dtypes\":{\"Names\":\"object\",\"Births\":\"int64\"},\"index\":\"{\\\"py/object\\\":\\\"pandas.core.indexes.range.RangeIndex\\\",\\\"values\\\":\\\"[0,1,2,3,4]\\\",\\\"txt\\\":true,\\\"meta\\\":{\\\"dtype\\\":\\\"int64\\\",\\\"name\\\":null}}\",\"column_level_names\":[null],\"header\":[0]}}",
-            "repr": "     Names  Births\n0      Bob     968\n1  Jessica     155\n2     Mary      77\n3     John     578\n4      Mel     973",
-            "type": "Binding"
+        "identifiers": [
+            "baby_data_set",
+            "df"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 8,
+                "index": 0,
+                "offset": 20,
+                "filename": "test_pandas.py",
+                "id": "test_pandas:0",
+                "target": "baby_data_set",
+                "value": "[[\"Bob\",968],[\"Jessica\",155],[\"Mary\",77],[\"John\",578],[\"Mel\",973]]",
+                "repr": "[('Bob', 968), ('Jessica', 155), ('Mary', 77), ('John', 578), ('Mel', 973)]",
+                "type": "Binding"
+            },
+            {
+                "lineno": 15,
+                "index": 1,
+                "offset": 38,
+                "filename": "test_pandas.py",
+                "id": "test_pandas:1",
+                "target": "df",
+                "value": "{\"values\":\"Names,Births\\nBob,968\\nJessica,155\\nMary,77\\nJohn,578\\nMel,973\\n\",\"txt\":true,\"meta\":{\"dtypes\":{\"Names\":\"object\",\"Births\":\"int64\"},\"index\":\"{\\\"py/object\\\":\\\"pandas.core.indexes.range.RangeIndex\\\",\\\"values\\\":\\\"[0,1,2,3,4]\\\",\\\"txt\\\":true,\\\"meta\\\":{\\\"dtype\\\":\\\"int64\\\",\\\"name\\\":null}}\",\"column_level_names\":[null],\"header\":[0]}}",
+                "repr": "     Names  Births\n0      Bob     968\n1  Jessica     155\n2     Mary      77\n3     John     578\n4      Mel     973",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_pandas:1": [
+                "test_pandas:0"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_pandas:1": [
-            "test_pandas:0"
-        ]
     }
 }

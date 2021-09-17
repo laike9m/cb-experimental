@@ -1,0 +1,44 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "test_mutation",
+            "frame_name": "test_mutation",
+            "filename": "test_mutation.py",
+            "defined_lineno": 4
+        },
+        "identifiers": [
+            "text",
+            "lower_text"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 12,
+                "filename": "test_mutation.py",
+                "id": "test_mutation:0",
+                "target": "text",
+                "value": "\"AAAA\"",
+                "repr": "\"AAAA\"",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 9,
+                "index": 1,
+                "offset": 18,
+                "filename": "test_mutation.py",
+                "id": "test_mutation:1",
+                "target": "lower_text",
+                "value": "\"aaaa\"",
+                "repr": "\"aaaa\"",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_mutation:1": [
+                "test_mutation:0"
+            ]
+        }
+    }
+}

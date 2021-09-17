@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "call_method_type_error",
+            "frame_name": "call_method_type_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 8
+        },
+        "identifiers": [
+            "s"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 9,
+                "index": 0,
+                "offset": 2,
+                "filename": "test_exception.py",
+                "id": "test_call_method_type_error:0",
+                "target": "s",
+                "value": "\"hello world\"",
+                "repr": "\"hello world\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 12,
+                "index": 1,
+                "offset": 58,
+                "filename": "test_exception.py",
+                "id": "test_call_method_type_error:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

@@ -1,68 +1,70 @@
 {
-    "metadata": {
-        "frame_id": "test_list_comprehension",
-        "frame_name": "test_list_comprehension",
-        "filename": "test_list_comp.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "n",
-        "x",
-        "lst"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 7,
-            "index": 0,
-            "offset": 10,
+    "response": {
+        "metadata": {
+            "frame_id": "test_list_comprehension",
+            "frame_name": "test_list_comprehension",
             "filename": "test_list_comp.py",
-            "id": "test_list_comprehension:0",
-            "target": "n",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
+            "defined_lineno": 4
         },
-        {
-            "lineno": 8,
-            "index": 1,
-            "offset": 28,
-            "filename": "test_list_comp.py",
-            "id": "test_list_comprehension:1",
-            "target": "x",
-            "value": "[0,1]",
-            "repr": "[0, 1]",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 2,
-            "offset": 36,
-            "filename": "test_list_comp.py",
-            "id": "test_list_comprehension:2",
-            "target": "lst",
-            "value": "[\"foo\",\"bar\"]",
-            "repr": "['foo', 'bar']",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 3,
-            "offset": 50,
-            "filename": "test_list_comp.py",
-            "id": "test_list_comprehension:3",
-            "target": "x",
-            "value": "[\"foo\",\"bar\"]",
-            "repr": "['foo', 'bar']",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {
-        "test_list_comprehension:1": [
-            "test_list_comprehension:0"
+        "identifiers": [
+            "n",
+            "x",
+            "lst"
         ],
-        "test_list_comprehension:3": [
-            "test_list_comprehension:2"
-        ]
+        "loops": [],
+        "events": [
+            {
+                "lineno": 7,
+                "index": 0,
+                "offset": 10,
+                "filename": "test_list_comp.py",
+                "id": "test_list_comprehension:0",
+                "target": "n",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 8,
+                "index": 1,
+                "offset": 28,
+                "filename": "test_list_comp.py",
+                "id": "test_list_comprehension:1",
+                "target": "x",
+                "value": "[0,1]",
+                "repr": "[0, 1]",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 2,
+                "offset": 36,
+                "filename": "test_list_comp.py",
+                "id": "test_list_comprehension:2",
+                "target": "lst",
+                "value": "[\"foo\",\"bar\"]",
+                "repr": "['foo', 'bar']",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 3,
+                "offset": 50,
+                "filename": "test_list_comp.py",
+                "id": "test_list_comprehension:3",
+                "target": "x",
+                "value": "[\"foo\",\"bar\"]",
+                "repr": "['foo', 'bar']",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_list_comprehension:1": [
+                "test_list_comprehension:0"
+            ],
+            "test_list_comprehension:3": [
+                "test_list_comprehension:2"
+            ]
+        }
     }
 }

@@ -1,84 +1,86 @@
 {
-    "metadata": {
-        "frame_id": "external_generator_function",
-        "frame_name": "external_generator_function",
-        "filename": "test_external_iterator.py",
-        "defined_lineno": 7
-    },
-    "identifiers": [
-        "inner",
-        "generator",
-        "x"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 0,
+    "response": {
+        "metadata": {
+            "frame_id": "external_generator_function",
+            "frame_name": "external_generator_function",
             "filename": "test_external_iterator.py",
-            "id": "test_external_generator:0",
-            "target": "inner",
-            "value": "{\"repr\": \"<function test_external_generator.<locals>.inner>\"}",
-            "repr": "<function test_external_generator.<locals>.inner>",
-            "type": "InitialValue"
+            "defined_lineno": 7
         },
-        {
-            "lineno": 8,
-            "index": 1,
-            "offset": 4,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_generator:1",
-            "target": "generator",
-            "value": "{\"repr\": \"<generator object test_external_generator.<locals>.inner>\"}",
-            "repr": "<generator object test_external_generator.<locals>.inner>",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 2,
-            "offset": 12,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_generator:2",
-            "target": "x",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 3,
-            "offset": 20,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_generator:3",
-            "target": "x",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 11,
-            "index": 4,
-            "offset": 24,
-            "filename": "test_external_iterator.py",
-            "id": "test_external_generator:4",
-            "value": "1",
-            "repr": "1",
-            "type": "Return"
+        "identifiers": [
+            "inner",
+            "generator",
+            "x"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 0,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_generator:0",
+                "target": "inner",
+                "value": "{\"repr\": \"<function test_external_generator.<locals>.inner>\"}",
+                "repr": "<function test_external_generator.<locals>.inner>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 8,
+                "index": 1,
+                "offset": 4,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_generator:1",
+                "target": "generator",
+                "value": "{\"repr\": \"<generator object test_external_generator.<locals>.inner>\"}",
+                "repr": "<generator object test_external_generator.<locals>.inner>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 2,
+                "offset": 12,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_generator:2",
+                "target": "x",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 3,
+                "offset": 20,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_generator:3",
+                "target": "x",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 11,
+                "index": 4,
+                "offset": 24,
+                "filename": "test_external_iterator.py",
+                "id": "test_external_generator:4",
+                "value": "1",
+                "repr": "1",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_external_generator:1": [
+                "test_external_generator:0"
+            ],
+            "test_external_generator:2": [
+                "test_external_generator:1"
+            ],
+            "test_external_generator:3": [
+                "test_external_generator:1"
+            ],
+            "test_external_generator:4": [
+                "test_external_generator:3"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_external_generator:1": [
-            "test_external_generator:0"
-        ],
-        "test_external_generator:2": [
-            "test_external_generator:1"
-        ],
-        "test_external_generator:3": [
-            "test_external_generator:1"
-        ],
-        "test_external_generator:4": [
-            "test_external_generator:3"
-        ]
     }
 }

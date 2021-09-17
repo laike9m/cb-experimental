@@ -1,255 +1,257 @@
 {
-    "metadata": {
-        "frame_id": "test_for_loop",
-        "frame_name": "test_for_loop",
-        "filename": "test_for_loop.py",
-        "defined_lineno": 5
-    },
-    "identifiers": [
-        "i",
-        "a"
-    ],
-    "loops": [
-        {
-            "startOffset": 16,
-            "endOffset": 24,
-            "startLineno": 8
-        },
-        {
-            "startOffset": 56,
-            "endOffset": 60,
-            "startLineno": 15
-        },
-        {
-            "startOffset": 76,
-            "endOffset": 88,
-            "startLineno": 19
-        },
-        {
-            "startOffset": 100,
-            "endOffset": 110,
-            "startLineno": 23
-        },
-        {
-            "startOffset": 148,
-            "endOffset": 152,
-            "startLineno": 32
-        }
-    ],
-    "events": [
-        {
-            "lineno": 8,
-            "index": 0,
-            "offset": 18,
+    "response": {
+        "metadata": {
+            "frame_id": "test_for_loop",
+            "frame_name": "test_for_loop",
             "filename": "test_for_loop.py",
-            "id": "test_for_loop:0",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
+            "defined_lineno": 5
         },
-        {
-            "lineno": 9,
-            "index": 1,
-            "offset": 22,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:1",
-            "target": "a",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 2,
-            "offset": 24,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:2",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 8,
-            "index": 3,
-            "offset": 18,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:3",
-            "target": "i",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 4,
-            "offset": 22,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:4",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 9,
-            "index": 5,
-            "offset": 24,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:5",
-            "jump_target": 16,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 11,
-            "index": 6,
-            "offset": 36,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:6",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 15,
-            "index": 7,
-            "offset": 58,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:7",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 16,
-            "index": 8,
-            "offset": 60,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:8",
-            "jump_target": 56,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 19,
-            "index": 9,
-            "offset": 78,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:9",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 21,
-            "index": 10,
-            "offset": 88,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:10",
-            "jump_target": 76,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 19,
-            "index": 11,
-            "offset": 78,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:11",
-            "target": "i",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 20,
-            "index": 12,
-            "offset": 86,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:12",
-            "jump_target": 76,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 23,
-            "index": 13,
-            "offset": 102,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:13",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 24,
-            "index": 14,
-            "offset": 110,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:14",
-            "jump_target": 100,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 23,
-            "index": 15,
-            "offset": 102,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:15",
-            "target": "i",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 27,
-            "index": 16,
-            "offset": 128,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:16",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 32,
-            "index": 17,
-            "offset": 150,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:17",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 33,
-            "index": 18,
-            "offset": 152,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:18",
-            "jump_target": 148,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 35,
-            "index": 19,
-            "offset": 156,
-            "filename": "test_for_loop.py",
-            "id": "test_for_loop:19",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {
-        "test_for_loop:1": [
-            "test_for_loop:0"
+        "identifiers": [
+            "i",
+            "a"
         ],
-        "test_for_loop:4": [
-            "test_for_loop:3"
-        ]
+        "loops": [
+            {
+                "startOffset": 16,
+                "endOffset": 24,
+                "startLineno": 8
+            },
+            {
+                "startOffset": 56,
+                "endOffset": 60,
+                "startLineno": 15
+            },
+            {
+                "startOffset": 76,
+                "endOffset": 88,
+                "startLineno": 19
+            },
+            {
+                "startOffset": 100,
+                "endOffset": 110,
+                "startLineno": 23
+            },
+            {
+                "startOffset": 148,
+                "endOffset": 152,
+                "startLineno": 32
+            }
+        ],
+        "events": [
+            {
+                "lineno": 8,
+                "index": 0,
+                "offset": 18,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:0",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 1,
+                "offset": 22,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:1",
+                "target": "a",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 2,
+                "offset": 24,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:2",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 8,
+                "index": 3,
+                "offset": 18,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:3",
+                "target": "i",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 4,
+                "offset": 22,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:4",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 9,
+                "index": 5,
+                "offset": 24,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:5",
+                "jump_target": 16,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 11,
+                "index": 6,
+                "offset": 36,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:6",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 15,
+                "index": 7,
+                "offset": 58,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:7",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 16,
+                "index": 8,
+                "offset": 60,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:8",
+                "jump_target": 56,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 19,
+                "index": 9,
+                "offset": 78,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:9",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 21,
+                "index": 10,
+                "offset": 88,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:10",
+                "jump_target": 76,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 19,
+                "index": 11,
+                "offset": 78,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:11",
+                "target": "i",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 20,
+                "index": 12,
+                "offset": 86,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:12",
+                "jump_target": 76,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 13,
+                "offset": 102,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:13",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 14,
+                "offset": 110,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:14",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 15,
+                "offset": 102,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:15",
+                "target": "i",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 27,
+                "index": 16,
+                "offset": 128,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:16",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 32,
+                "index": 17,
+                "offset": 150,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:17",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 33,
+                "index": 18,
+                "offset": 152,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:18",
+                "jump_target": 148,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 35,
+                "index": 19,
+                "offset": 156,
+                "filename": "test_for_loop.py",
+                "id": "test_for_loop:19",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_for_loop:1": [
+                "test_for_loop:0"
+            ],
+            "test_for_loop:4": [
+                "test_for_loop:3"
+            ]
+        }
     }
 }

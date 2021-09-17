@@ -3,7 +3,7 @@ import pytest
 from cyberbrain import Binding, InitialValue, Symbol, Mutation  # noqa
 
 
-def test_call_method_type_error(trace):
+def test_call_method_type_error(trace, mocked_responses):
     @trace
     def call_method_type_error():
         s = "hello world"
@@ -14,7 +14,7 @@ def test_call_method_type_error(trace):
     call_method_type_error()
 
 
-def test_binary_op_zero_division(trace):
+def test_binary_op_zero_division(trace, mocked_responses):
     @trace
     def binary_op_zero_division():
         with pytest.raises(ZeroDivisionError):
@@ -23,7 +23,7 @@ def test_binary_op_zero_division(trace):
     binary_op_zero_division()
 
 
-def test_store_subscr_type_error(trace):
+def test_store_subscr_type_error(trace, mocked_responses):
     @trace
     def store_subscr_type_error():
         with pytest.raises(TypeError):
@@ -33,7 +33,7 @@ def test_store_subscr_type_error(trace):
     store_subscr_type_error()
 
 
-def test_delete_subscr_type_error(trace):
+def test_delete_subscr_type_error(trace, mocked_responses):
     @trace
     def delete_subscr_type_error():
         with pytest.raises(TypeError):
@@ -43,7 +43,7 @@ def test_delete_subscr_type_error(trace):
     delete_subscr_type_error()
 
 
-def test_import_error(trace):
+def test_import_error(trace, mocked_responses):
     @trace
     def import_error():
         with pytest.raises(ImportError):
@@ -55,7 +55,7 @@ def test_import_error(trace):
     import_error()
 
 
-def test_name_error(trace):
+def test_name_error(trace, mocked_responses):
     @trace
     def name_error():
         with pytest.raises(NameError):
@@ -67,7 +67,7 @@ def test_name_error(trace):
     name_error()
 
 
-def test_attribute_error(trace):
+def test_attribute_error(trace, mocked_responses):
     @trace
     def attribute_error():
         with pytest.raises(AttributeError):
@@ -86,7 +86,7 @@ def test_attribute_error(trace):
     attribute_error()
 
 
-def test_build_set_type_error(trace):
+def test_build_set_type_error(trace, mocked_responses):
     @trace
     def build_set_type_error():
         with pytest.raises(TypeError):
@@ -95,7 +95,7 @@ def test_build_set_type_error(trace):
     build_set_type_error()
 
 
-def test_build_map_type_error(trace):
+def test_build_map_type_error(trace, mocked_responses):
     @trace
     def build_map_type_error():
         with pytest.raises(TypeError):
@@ -104,7 +104,7 @@ def test_build_map_type_error(trace):
     build_map_type_error()
 
 
-def test_unpack_type_error(trace):
+def test_unpack_type_error(trace, mocked_responses):
     """
     For <3.9 it's
         BUILD_TUPLE_UNPACK[_WITH_CALL],
@@ -148,7 +148,7 @@ def test_unpack_type_error(trace):
     unpack_type_error()
 
 
-def test_format_value_error(trace):
+def test_format_value_error(trace, mocked_responses):
     class A:
         def __str__(self):
             raise RuntimeError("ooo")
@@ -162,7 +162,7 @@ def test_format_value_error(trace):
     format_value_error()
 
 
-def test_get_iter_type_error(trace):
+def test_get_iter_type_error(trace, mocked_responses):
     @trace
     def get_iter_type_error():
         with pytest.raises(TypeError):
@@ -172,7 +172,7 @@ def test_get_iter_type_error(trace):
     get_iter_type_error()
 
 
-def test_for_iter_error(trace):
+def test_for_iter_error(trace, mocked_responses):
     class A:
         def __iter__(self):
             return self
@@ -192,7 +192,7 @@ def test_for_iter_error(trace):
     for_iter_error()
 
 
-def test_setup_with_error(trace):
+def test_setup_with_error(trace, mocked_responses):
     @trace
     def setup_with_error():
         with pytest.raises(AttributeError):
@@ -202,7 +202,7 @@ def test_setup_with_error(trace):
     setup_with_error()
 
 
-def test_with_cleanup_start_error(trace):
+def test_with_cleanup_start_error(trace, mocked_responses):
     class A:
         def __enter__(self):
             pass
@@ -219,7 +219,7 @@ def test_with_cleanup_start_error(trace):
     with_cleanup_start_error()
 
 
-def test_unbound_local_error(trace):
+def test_unbound_local_error(trace, mocked_responses):
     @trace
     def unbound_local_error():
         with pytest.raises(UnboundLocalError):

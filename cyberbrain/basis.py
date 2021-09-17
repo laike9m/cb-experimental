@@ -64,6 +64,8 @@ class Event:
 
     @staticmethod
     def value_serializer(inst: type, field: attr.Attribute, value: Any):
+        if field is None:
+            return value
         if field.name == "sources":
             return sorted(source.name for source in value)
         if field.name == "target":

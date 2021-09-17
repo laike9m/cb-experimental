@@ -1,0 +1,1576 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "test_telephone_inner",
+            "frame_name": "test_telephone_inner",
+            "filename": "test_telephone.py",
+            "defined_lineno": 12
+        },
+        "identifiers": [
+            "args",
+            "text",
+            "alpha",
+            "len_text",
+            "num_mutations",
+            "new_text",
+            "i",
+            "new_char"
+        ],
+        "loops": [
+            {
+                "startOffset": 100,
+                "endOffset": 158,
+                "startLineno": 23
+            }
+        ],
+        "events": [
+            {
+                "lineno": 14,
+                "index": 0,
+                "offset": 14,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:0",
+                "target": "args",
+                "value": "{\"mutations\":0.6,\"seed\":2,\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+                "repr": "argparse.Namespace",
+                "type": "Binding"
+            },
+            {
+                "lineno": 16,
+                "index": 1,
+                "offset": 20,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:1",
+                "target": "text",
+                "value": "\"The quick brown fox jumps over the lazy dog.\"",
+                "repr": "\"The quick brown fox jumps over the lazy dog.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 18,
+                "index": 2,
+                "offset": 54,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:2",
+                "target": "alpha",
+                "value": "\"!\\\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\"",
+                "repr": "\"!\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 19,
+                "index": 3,
+                "offset": 62,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:3",
+                "target": "len_text",
+                "value": "44",
+                "repr": "44",
+                "type": "Binding"
+            },
+            {
+                "lineno": 20,
+                "index": 4,
+                "offset": 76,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:4",
+                "target": "num_mutations",
+                "value": "26",
+                "repr": "26",
+                "type": "Binding"
+            },
+            {
+                "lineno": 21,
+                "index": 5,
+                "offset": 80,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:5",
+                "target": "new_text",
+                "value": "\"The quick brown fox jumps over the lazy dog.\"",
+                "repr": "\"The quick brown fox jumps over the lazy dog.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 23,
+                "index": 6,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:6",
+                "target": "i",
+                "value": "3",
+                "repr": "3",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 7,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:7",
+                "target": "new_char",
+                "value": "\"@\"",
+                "repr": "\"@\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 8,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:8",
+                "target": "new_text",
+                "value": "\"The@quick brown fox jumps over the lazy dog.\"",
+                "repr": "\"The@quick brown fox jumps over the lazy dog.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 9,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:9",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 10,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:10",
+                "target": "i",
+                "value": "5",
+                "repr": "5",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 11,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:11",
+                "target": "new_char",
+                "value": "\"r\"",
+                "repr": "\"r\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 12,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:12",
+                "target": "new_text",
+                "value": "\"The@qrick brown fox jumps over the lazy dog.\"",
+                "repr": "\"The@qrick brown fox jumps over the lazy dog.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 13,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:13",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 14,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:14",
+                "target": "i",
+                "value": "42",
+                "repr": "42",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 15,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:15",
+                "target": "new_char",
+                "value": "\"A\"",
+                "repr": "\"A\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 16,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:16",
+                "target": "new_text",
+                "value": "\"The@qrick brown fox jumps over the lazy doA.\"",
+                "repr": "\"The@qrick brown fox jumps over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 17,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:17",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 18,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:18",
+                "target": "i",
+                "value": "23",
+                "repr": "23",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 19,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:19",
+                "target": "new_char",
+                "value": "\"I\"",
+                "repr": "\"I\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 20,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:20",
+                "target": "new_text",
+                "value": "\"The@qrick brown fox jumIs over the lazy doA.\"",
+                "repr": "\"The@qrick brown fox jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 21,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:21",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 22,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:22",
+                "target": "i",
+                "value": "10",
+                "repr": "10",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 23,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:23",
+                "target": "new_char",
+                "value": "\"H\"",
+                "repr": "\"H\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 24,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:24",
+                "target": "new_text",
+                "value": "\"The@qrick Hrown fox jumIs over the lazy doA.\"",
+                "repr": "\"The@qrick Hrown fox jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 25,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:25",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 26,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:26",
+                "target": "i",
+                "value": "19",
+                "repr": "19",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 27,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:27",
+                "target": "new_char",
+                "value": "\"$\"",
+                "repr": "\"$\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 28,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:28",
+                "target": "new_text",
+                "value": "\"The@qrick Hrown fox$jumIs over the lazy doA.\"",
+                "repr": "\"The@qrick Hrown fox$jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 29,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:29",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 30,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:30",
+                "target": "i",
+                "value": "16",
+                "repr": "16",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 31,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:31",
+                "target": "new_char",
+                "value": "\"A\"",
+                "repr": "\"A\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 32,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:32",
+                "target": "new_text",
+                "value": "\"The@qrick Hrown Aox$jumIs over the lazy doA.\"",
+                "repr": "\"The@qrick Hrown Aox$jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 33,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:33",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 34,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:34",
+                "target": "i",
+                "value": "13",
+                "repr": "13",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 35,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:35",
+                "target": "new_char",
+                "value": "\"T\"",
+                "repr": "\"T\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 36,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:36",
+                "target": "new_text",
+                "value": "\"The@qrick HroTn Aox$jumIs over the lazy doA.\"",
+                "repr": "\"The@qrick HroTn Aox$jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 37,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:37",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 38,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:38",
+                "target": "i",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 39,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:39",
+                "target": "new_char",
+                "value": "\"A\"",
+                "repr": "\"A\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 40,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:40",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Aox$jumIs over the lazy doA.\"",
+                "repr": "\"ThA@qrick HroTn Aox$jumIs over the lazy doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 41,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:41",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 42,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:42",
+                "target": "i",
+                "value": "39",
+                "repr": "39",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 43,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:43",
+                "target": "new_char",
+                "value": "\"<\"",
+                "repr": "\"<\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 44,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:44",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Aox$jumIs over the lazy<doA.\"",
+                "repr": "\"ThA@qrick HroTn Aox$jumIs over the lazy<doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 45,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:45",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 46,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:46",
+                "target": "i",
+                "value": "27",
+                "repr": "27",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 47,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:47",
+                "target": "new_char",
+                "value": "\"l\"",
+                "repr": "\"l\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 48,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:48",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Aox$jumIs oler the lazy<doA.\"",
+                "repr": "\"ThA@qrick HroTn Aox$jumIs oler the lazy<doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 49,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:49",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 50,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:50",
+                "target": "i",
+                "value": "25",
+                "repr": "25",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 51,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:51",
+                "target": "new_char",
+                "value": "\"l\"",
+                "repr": "\"l\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 52,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:52",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Aox$jumIsloler the lazy<doA.\"",
+                "repr": "\"ThA@qrick HroTn Aox$jumIsloler the lazy<doA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 53,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:53",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 54,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:54",
+                "target": "i",
+                "value": "40",
+                "repr": "40",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 55,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:55",
+                "target": "new_char",
+                "value": "\"Y\"",
+                "repr": "\"Y\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 56,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:56",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Aox$jumIsloler the lazy<YoA.\"",
+                "repr": "\"ThA@qrick HroTn Aox$jumIsloler the lazy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 57,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:57",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 58,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:58",
+                "target": "i",
+                "value": "17",
+                "repr": "17",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 59,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:59",
+                "target": "new_char",
+                "value": "\"l\"",
+                "repr": "\"l\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 60,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:60",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Alx$jumIsloler the lazy<YoA.\"",
+                "repr": "\"ThA@qrick HroTn Alx$jumIsloler the lazy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 61,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:61",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 62,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:62",
+                "target": "i",
+                "value": "29",
+                "repr": "29",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 63,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:63",
+                "target": "new_char",
+                "value": "\"s\"",
+                "repr": "\"s\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 64,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:64",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTn Alx$jumIsloles the lazy<YoA.\"",
+                "repr": "\"ThA@qrick HroTn Alx$jumIsloles the lazy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 65,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:65",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 66,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:66",
+                "target": "i",
+                "value": "14",
+                "repr": "14",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 67,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:67",
+                "target": "new_char",
+                "value": "\"B\"",
+                "repr": "\"B\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 68,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:68",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTB Alx$jumIsloles the lazy<YoA.\"",
+                "repr": "\"ThA@qrick HroTB Alx$jumIsloles the lazy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 69,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:69",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 70,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:70",
+                "target": "i",
+                "value": "37",
+                "repr": "37",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 71,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:71",
+                "target": "new_char",
+                "value": "\"d\"",
+                "repr": "\"d\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 72,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:72",
+                "target": "new_text",
+                "value": "\"ThA@qrick HroTB Alx$jumIsloles the lady<YoA.\"",
+                "repr": "\"ThA@qrick HroTB Alx$jumIsloles the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 73,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:73",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 74,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:74",
+                "target": "i",
+                "value": "8",
+                "repr": "8",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 75,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:75",
+                "target": "new_char",
+                "value": "\"`\"",
+                "repr": "\"`\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 76,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:76",
+                "target": "new_text",
+                "value": "\"ThA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "repr": "\"ThA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 77,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:77",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 78,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:78",
+                "target": "i",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 79,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:79",
+                "target": "new_char",
+                "value": "\"o\"",
+                "repr": "\"o\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 80,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:80",
+                "target": "new_text",
+                "value": "\"ToA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "repr": "\"ToA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 81,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:81",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 82,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:82",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 83,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:83",
+                "target": "new_char",
+                "value": "\"Z\"",
+                "repr": "\"Z\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 84,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:84",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "repr": "\"ZoA@qric` HroTB Alx$jumIsloles the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 85,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:85",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 86,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:86",
+                "target": "i",
+                "value": "11",
+                "repr": "11",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 87,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:87",
+                "target": "new_char",
+                "value": "\"w\"",
+                "repr": "\"w\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 88,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:88",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwoTB Alx$jumIsloles the lady<YoA.\"",
+                "repr": "\"ZoA@qric` HwoTB Alx$jumIsloles the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 89,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:89",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 90,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:90",
+                "target": "i",
+                "value": "28",
+                "repr": "28",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 91,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:91",
+                "target": "new_char",
+                "value": "\"X\"",
+                "repr": "\"X\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 92,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:92",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwoTB Alx$jumIslolXs the lady<YoA.\"",
+                "repr": "\"ZoA@qric` HwoTB Alx$jumIslolXs the lady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 93,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:93",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 94,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:94",
+                "target": "i",
+                "value": "34",
+                "repr": "34",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 95,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:95",
+                "target": "new_char",
+                "value": "\"Y\"",
+                "repr": "\"Y\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 96,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:96",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwoTB Alx$jumIslolXs theYlady<YoA.\"",
+                "repr": "\"ZoA@qric` HwoTB Alx$jumIslolXs theYlady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 97,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:97",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 98,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:98",
+                "target": "i",
+                "value": "12",
+                "repr": "12",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 99,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:99",
+                "target": "new_char",
+                "value": "\"d\"",
+                "repr": "\"d\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 100,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:100",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwdTB Alx$jumIslolXs theYlady<YoA.\"",
+                "repr": "\"ZoA@qric` HwdTB Alx$jumIslolXs theYlady<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 101,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:101",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 102,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:102",
+                "target": "i",
+                "value": "36",
+                "repr": "36",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 103,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:103",
+                "target": "new_char",
+                "value": "\"?\"",
+                "repr": "\"?\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 104,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:104",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwdTB Alx$jumIslolXs theYl?dy<YoA.\"",
+                "repr": "\"ZoA@qric` HwdTB Alx$jumIslolXs theYl?dy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 105,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:105",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 23,
+                "index": 106,
+                "offset": 102,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:106",
+                "target": "i",
+                "value": "33",
+                "repr": "33",
+                "type": "Binding"
+            },
+            {
+                "lineno": 24,
+                "index": 107,
+                "offset": 124,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:107",
+                "target": "new_char",
+                "value": "\"^\"",
+                "repr": "\"^\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 108,
+                "offset": 156,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:108",
+                "target": "new_text",
+                "value": "\"ZoA@qric` HwdTB Alx$jumIslolXs th^Yl?dy<YoA.\"",
+                "repr": "\"ZoA@qric` HwdTB Alx$jumIslolXs th^Yl?dy<YoA.\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 25,
+                "index": 109,
+                "offset": 158,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:109",
+                "jump_target": 100,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 27,
+                "index": 110,
+                "offset": 186,
+                "filename": "test_telephone.py",
+                "id": "test_telephone:110",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_telephone:1": [
+                "test_telephone:0"
+            ],
+            "test_telephone:3": [
+                "test_telephone:1"
+            ],
+            "test_telephone:4": [
+                "test_telephone:0",
+                "test_telephone:3"
+            ],
+            "test_telephone:5": [
+                "test_telephone:1"
+            ],
+            "test_telephone:6": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:7": [
+                "test_telephone:2",
+                "test_telephone:6",
+                "test_telephone:5"
+            ],
+            "test_telephone:8": [
+                "test_telephone:6",
+                "test_telephone:7",
+                "test_telephone:5"
+            ],
+            "test_telephone:10": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:11": [
+                "test_telephone:2",
+                "test_telephone:10",
+                "test_telephone:8"
+            ],
+            "test_telephone:12": [
+                "test_telephone:10",
+                "test_telephone:11",
+                "test_telephone:8"
+            ],
+            "test_telephone:14": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:15": [
+                "test_telephone:2",
+                "test_telephone:14",
+                "test_telephone:12"
+            ],
+            "test_telephone:16": [
+                "test_telephone:14",
+                "test_telephone:15",
+                "test_telephone:12"
+            ],
+            "test_telephone:18": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:19": [
+                "test_telephone:2",
+                "test_telephone:18",
+                "test_telephone:16"
+            ],
+            "test_telephone:20": [
+                "test_telephone:18",
+                "test_telephone:19",
+                "test_telephone:16"
+            ],
+            "test_telephone:22": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:23": [
+                "test_telephone:2",
+                "test_telephone:22",
+                "test_telephone:20"
+            ],
+            "test_telephone:24": [
+                "test_telephone:22",
+                "test_telephone:23",
+                "test_telephone:20"
+            ],
+            "test_telephone:26": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:27": [
+                "test_telephone:2",
+                "test_telephone:26",
+                "test_telephone:24"
+            ],
+            "test_telephone:28": [
+                "test_telephone:26",
+                "test_telephone:27",
+                "test_telephone:24"
+            ],
+            "test_telephone:30": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:31": [
+                "test_telephone:2",
+                "test_telephone:30",
+                "test_telephone:28"
+            ],
+            "test_telephone:32": [
+                "test_telephone:30",
+                "test_telephone:31",
+                "test_telephone:28"
+            ],
+            "test_telephone:34": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:35": [
+                "test_telephone:2",
+                "test_telephone:34",
+                "test_telephone:32"
+            ],
+            "test_telephone:36": [
+                "test_telephone:34",
+                "test_telephone:35",
+                "test_telephone:32"
+            ],
+            "test_telephone:38": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:39": [
+                "test_telephone:2",
+                "test_telephone:38",
+                "test_telephone:36"
+            ],
+            "test_telephone:40": [
+                "test_telephone:38",
+                "test_telephone:39",
+                "test_telephone:36"
+            ],
+            "test_telephone:42": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:43": [
+                "test_telephone:2",
+                "test_telephone:42",
+                "test_telephone:40"
+            ],
+            "test_telephone:44": [
+                "test_telephone:42",
+                "test_telephone:43",
+                "test_telephone:40"
+            ],
+            "test_telephone:46": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:47": [
+                "test_telephone:2",
+                "test_telephone:46",
+                "test_telephone:44"
+            ],
+            "test_telephone:48": [
+                "test_telephone:46",
+                "test_telephone:47",
+                "test_telephone:44"
+            ],
+            "test_telephone:50": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:51": [
+                "test_telephone:2",
+                "test_telephone:50",
+                "test_telephone:48"
+            ],
+            "test_telephone:52": [
+                "test_telephone:50",
+                "test_telephone:51",
+                "test_telephone:48"
+            ],
+            "test_telephone:54": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:55": [
+                "test_telephone:2",
+                "test_telephone:54",
+                "test_telephone:52"
+            ],
+            "test_telephone:56": [
+                "test_telephone:54",
+                "test_telephone:55",
+                "test_telephone:52"
+            ],
+            "test_telephone:58": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:59": [
+                "test_telephone:2",
+                "test_telephone:58",
+                "test_telephone:56"
+            ],
+            "test_telephone:60": [
+                "test_telephone:58",
+                "test_telephone:59",
+                "test_telephone:56"
+            ],
+            "test_telephone:62": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:63": [
+                "test_telephone:2",
+                "test_telephone:62",
+                "test_telephone:60"
+            ],
+            "test_telephone:64": [
+                "test_telephone:62",
+                "test_telephone:63",
+                "test_telephone:60"
+            ],
+            "test_telephone:66": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:67": [
+                "test_telephone:2",
+                "test_telephone:66",
+                "test_telephone:64"
+            ],
+            "test_telephone:68": [
+                "test_telephone:66",
+                "test_telephone:67",
+                "test_telephone:64"
+            ],
+            "test_telephone:70": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:71": [
+                "test_telephone:2",
+                "test_telephone:70",
+                "test_telephone:68"
+            ],
+            "test_telephone:72": [
+                "test_telephone:70",
+                "test_telephone:71",
+                "test_telephone:68"
+            ],
+            "test_telephone:74": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:75": [
+                "test_telephone:2",
+                "test_telephone:74",
+                "test_telephone:72"
+            ],
+            "test_telephone:76": [
+                "test_telephone:74",
+                "test_telephone:75",
+                "test_telephone:72"
+            ],
+            "test_telephone:78": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:79": [
+                "test_telephone:2",
+                "test_telephone:78",
+                "test_telephone:76"
+            ],
+            "test_telephone:80": [
+                "test_telephone:78",
+                "test_telephone:79",
+                "test_telephone:76"
+            ],
+            "test_telephone:82": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:83": [
+                "test_telephone:2",
+                "test_telephone:82",
+                "test_telephone:80"
+            ],
+            "test_telephone:84": [
+                "test_telephone:82",
+                "test_telephone:83",
+                "test_telephone:80"
+            ],
+            "test_telephone:86": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:87": [
+                "test_telephone:2",
+                "test_telephone:86",
+                "test_telephone:84"
+            ],
+            "test_telephone:88": [
+                "test_telephone:86",
+                "test_telephone:87",
+                "test_telephone:84"
+            ],
+            "test_telephone:90": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:91": [
+                "test_telephone:2",
+                "test_telephone:90",
+                "test_telephone:88"
+            ],
+            "test_telephone:92": [
+                "test_telephone:90",
+                "test_telephone:91",
+                "test_telephone:88"
+            ],
+            "test_telephone:94": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:95": [
+                "test_telephone:2",
+                "test_telephone:94",
+                "test_telephone:92"
+            ],
+            "test_telephone:96": [
+                "test_telephone:94",
+                "test_telephone:95",
+                "test_telephone:92"
+            ],
+            "test_telephone:98": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:99": [
+                "test_telephone:2",
+                "test_telephone:98",
+                "test_telephone:96"
+            ],
+            "test_telephone:100": [
+                "test_telephone:98",
+                "test_telephone:99",
+                "test_telephone:96"
+            ],
+            "test_telephone:102": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:103": [
+                "test_telephone:2",
+                "test_telephone:102",
+                "test_telephone:100"
+            ],
+            "test_telephone:104": [
+                "test_telephone:102",
+                "test_telephone:103",
+                "test_telephone:100"
+            ],
+            "test_telephone:106": [
+                "test_telephone:3",
+                "test_telephone:4"
+            ],
+            "test_telephone:107": [
+                "test_telephone:2",
+                "test_telephone:106",
+                "test_telephone:104"
+            ],
+            "test_telephone:108": [
+                "test_telephone:106",
+                "test_telephone:107",
+                "test_telephone:104"
+            ]
+        }
+    }
+}

@@ -1,112 +1,114 @@
 {
-    "metadata": {
-        "frame_id": "generator_function",
-        "frame_name": "generator_function",
-        "filename": "test_generator.py",
-        "defined_lineno": 7
-    },
-    "identifiers": [
-        "count",
-        "x"
-    ],
-    "loops": [
-        {
-            "startOffset": 2,
-            "endOffset": 24,
-            "startLineno": 8
-        }
-    ],
-    "events": [
-        {
-            "lineno": 7,
-            "index": 0,
-            "offset": 2,
+    "response": {
+        "metadata": {
+            "frame_id": "generator_function",
+            "frame_name": "generator_function",
             "filename": "test_generator.py",
-            "id": "test_generator_function:0",
-            "target": "count",
-            "value": "2",
-            "repr": "2",
-            "type": "InitialValue"
+            "defined_lineno": 7
         },
-        {
-            "lineno": 9,
-            "index": 1,
-            "offset": 14,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:1",
-            "target": "x",
-            "value": "\"foo\"",
-            "repr": "\"foo\"",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 2,
-            "offset": 22,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:2",
-            "target": "count",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 3,
-            "offset": 24,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:3",
-            "jump_target": 2,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 9,
-            "index": 4,
-            "offset": 14,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:4",
-            "target": "x",
-            "value": "null",
-            "repr": "None",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 5,
-            "offset": 22,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:5",
-            "target": "count",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        },
-        {
-            "lineno": 10,
-            "index": 6,
-            "offset": 24,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:6",
-            "jump_target": 2,
-            "type": "JumpBackToLoopStart"
-        },
-        {
-            "lineno": 10,
-            "index": 7,
-            "offset": 30,
-            "filename": "test_generator.py",
-            "id": "test_generator_function:7",
-            "value": "null",
-            "repr": "None",
-            "type": "Return"
-        }
-    ],
-    "tracingResult": {
-        "test_generator_function:2": [
-            "test_generator_function:0"
+        "identifiers": [
+            "count",
+            "x"
         ],
-        "test_generator_function:5": [
-            "test_generator_function:2"
-        ]
+        "loops": [
+            {
+                "startOffset": 2,
+                "endOffset": 24,
+                "startLineno": 8
+            }
+        ],
+        "events": [
+            {
+                "lineno": 7,
+                "index": 0,
+                "offset": 2,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:0",
+                "target": "count",
+                "value": "2",
+                "repr": "2",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 9,
+                "index": 1,
+                "offset": 14,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:1",
+                "target": "x",
+                "value": "\"foo\"",
+                "repr": "\"foo\"",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 2,
+                "offset": 22,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:2",
+                "target": "count",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 3,
+                "offset": 24,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:3",
+                "jump_target": 2,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 9,
+                "index": 4,
+                "offset": 14,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:4",
+                "target": "x",
+                "value": "null",
+                "repr": "None",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 5,
+                "offset": 22,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:5",
+                "target": "count",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 6,
+                "offset": 24,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:6",
+                "jump_target": 2,
+                "type": "JumpBackToLoopStart"
+            },
+            {
+                "lineno": 10,
+                "index": 7,
+                "offset": 30,
+                "filename": "test_generator.py",
+                "id": "test_generator_function:7",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {
+            "test_generator_function:2": [
+                "test_generator_function:0"
+            ],
+            "test_generator_function:5": [
+                "test_generator_function:2"
+            ]
+        }
     }
 }

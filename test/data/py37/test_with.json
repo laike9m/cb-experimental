@@ -1,150 +1,152 @@
 {
-    "metadata": {
-        "frame_id": "test_with",
-        "frame_name": "test_with",
-        "filename": "test_with.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "ContextManagerNoReturn",
-        "a",
-        "ContextManagerWithReturn",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "i"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 36,
+    "response": {
+        "metadata": {
+            "frame_id": "test_with",
+            "frame_name": "test_with",
             "filename": "test_with.py",
-            "id": "test_with:0",
-            "target": "ContextManagerNoReturn",
-            "value": "{\"py/type\":\"test_with.test_with.<locals>.ContextManagerNoReturn\"}",
-            "repr": "<class 'test_with.test_with....als>.ContextManagerNoReturn'>",
-            "type": "InitialValue"
+            "defined_lineno": 4
         },
-        {
-            "lineno": 22,
-            "index": 1,
-            "offset": 46,
-            "filename": "test_with.py",
-            "id": "test_with:1",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": -1,
-            "index": 2,
-            "offset": 58,
-            "filename": "test_with.py",
-            "id": "test_with:2",
-            "target": "ContextManagerWithReturn",
-            "value": "{\"py/type\":\"test_with.test_with.<locals>.ContextManagerWithReturn\"}",
-            "repr": "<class 'test_with.test_with....s>.ContextManagerWithReturn'>",
-            "type": "InitialValue"
-        },
-        {
-            "lineno": 24,
-            "index": 3,
-            "offset": 64,
-            "filename": "test_with.py",
-            "id": "test_with:3",
-            "target": "b",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 27,
-            "index": 4,
-            "offset": 82,
-            "filename": "test_with.py",
-            "id": "test_with:4",
-            "target": "c",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 27,
-            "index": 5,
-            "offset": 90,
-            "filename": "test_with.py",
-            "id": "test_with:5",
-            "target": "d",
-            "value": "null",
-            "repr": "None",
-            "type": "Binding"
-        },
-        {
-            "lineno": 30,
-            "index": 6,
-            "offset": 118,
-            "filename": "test_with.py",
-            "id": "test_with:6",
-            "target": "e",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 31,
-            "index": 7,
-            "offset": 126,
-            "filename": "test_with.py",
-            "id": "test_with:7",
-            "target": "f",
-            "value": "2",
-            "repr": "2",
-            "type": "Binding"
-        },
-        {
-            "lineno": 36,
-            "index": 8,
-            "offset": 160,
-            "filename": "test_with.py",
-            "id": "test_with:8",
-            "target": "g",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        },
-        {
-            "lineno": 41,
-            "index": 9,
-            "offset": 212,
-            "filename": "test_with.py",
-            "id": "test_with:9",
-            "target": "i",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
+        "identifiers": [
+            "ContextManagerNoReturn",
+            "a",
+            "ContextManagerWithReturn",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "i"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 36,
+                "filename": "test_with.py",
+                "id": "test_with:0",
+                "target": "ContextManagerNoReturn",
+                "value": "{\"py/type\":\"test_with.test_with.<locals>.ContextManagerNoReturn\"}",
+                "repr": "<class 'test_with.test_with....als>.ContextManagerNoReturn'>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 22,
+                "index": 1,
+                "offset": 46,
+                "filename": "test_with.py",
+                "id": "test_with:1",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": -1,
+                "index": 2,
+                "offset": 58,
+                "filename": "test_with.py",
+                "id": "test_with:2",
+                "target": "ContextManagerWithReturn",
+                "value": "{\"py/type\":\"test_with.test_with.<locals>.ContextManagerWithReturn\"}",
+                "repr": "<class 'test_with.test_with....s>.ContextManagerWithReturn'>",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 24,
+                "index": 3,
+                "offset": 64,
+                "filename": "test_with.py",
+                "id": "test_with:3",
+                "target": "b",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 27,
+                "index": 4,
+                "offset": 82,
+                "filename": "test_with.py",
+                "id": "test_with:4",
+                "target": "c",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 27,
+                "index": 5,
+                "offset": 90,
+                "filename": "test_with.py",
+                "id": "test_with:5",
+                "target": "d",
+                "value": "null",
+                "repr": "None",
+                "type": "Binding"
+            },
+            {
+                "lineno": 30,
+                "index": 6,
+                "offset": 118,
+                "filename": "test_with.py",
+                "id": "test_with:6",
+                "target": "e",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 31,
+                "index": 7,
+                "offset": 126,
+                "filename": "test_with.py",
+                "id": "test_with:7",
+                "target": "f",
+                "value": "2",
+                "repr": "2",
+                "type": "Binding"
+            },
+            {
+                "lineno": 36,
+                "index": 8,
+                "offset": 160,
+                "filename": "test_with.py",
+                "id": "test_with:8",
+                "target": "g",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 41,
+                "index": 9,
+                "offset": 212,
+                "filename": "test_with.py",
+                "id": "test_with:9",
+                "target": "i",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_with:3": [
+                "test_with:2"
+            ],
+            "test_with:4": [
+                "test_with:2"
+            ],
+            "test_with:5": [
+                "test_with:0"
+            ],
+            "test_with:6": [
+                "test_with:2"
+            ],
+            "test_with:7": [
+                "test_with:2"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_with:3": [
-            "test_with:2"
-        ],
-        "test_with:4": [
-            "test_with:2"
-        ],
-        "test_with:5": [
-            "test_with:0"
-        ],
-        "test_with:6": [
-            "test_with:2"
-        ],
-        "test_with:7": [
-            "test_with:2"
-        ]
     }
 }

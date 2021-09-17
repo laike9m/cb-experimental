@@ -1,0 +1,14 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "test_assertion",
+            "frame_name": "test_assertion",
+            "filename": "test_assertion.py",
+            "defined_lineno": 4
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [],
+        "tracingResult": {}
+    }
+}

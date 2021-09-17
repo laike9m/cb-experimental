@@ -1,26 +1,28 @@
 {
-    "metadata": {
-        "frame_id": "test_break_in_finally",
-        "frame_name": "test_break_in_finally",
-        "filename": "test_block.py",
-        "defined_lineno": 53
-    },
-    "identifiers": [
-        "x"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 56,
-            "index": 0,
-            "offset": 20,
+    "response": {
+        "metadata": {
+            "frame_id": "test_break_in_finally",
+            "frame_name": "test_break_in_finally",
             "filename": "test_block.py",
-            "id": "test_break_in_finally:0",
-            "target": "x",
-            "value": "0",
-            "repr": "0",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {}
+            "defined_lineno": 53
+        },
+        "identifiers": [
+            "x"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 56,
+                "index": 0,
+                "offset": 20,
+                "filename": "test_block.py",
+                "id": "test_break_in_finally:0",
+                "target": "x",
+                "value": "0",
+                "repr": "0",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

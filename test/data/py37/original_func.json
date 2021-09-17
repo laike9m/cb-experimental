@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "original_func",
+            "frame_name": "original_func",
+            "filename": "test_decorator.py",
+            "defined_lineno": 15
+        },
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 16,
+                "index": 0,
+                "offset": 8,
+                "filename": "test_decorator.py",
+                "id": "test_trace_decorated_function:0",
+                "target": "a",
+                "value": "[1,2,3]",
+                "repr": "[1, 2, 3]",
+                "type": "Binding"
+            },
+            {
+                "lineno": 16,
+                "index": 1,
+                "offset": 12,
+                "filename": "test_decorator.py",
+                "id": "test_trace_decorated_function:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

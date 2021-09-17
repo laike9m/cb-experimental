@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "attribute_error",
+            "frame_name": "attribute_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 72
+        },
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 74,
+                "index": 0,
+                "offset": 14,
+                "filename": "test_exception.py",
+                "id": "test_attribute_error:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            },
+            {
+                "lineno": 84,
+                "index": 1,
+                "offset": 126,
+                "filename": "test_exception.py",
+                "id": "test_attribute_error:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

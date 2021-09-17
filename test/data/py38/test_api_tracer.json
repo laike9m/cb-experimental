@@ -1,26 +1,28 @@
 {
-    "metadata": {
-        "frame_id": "test_api_tracer",
-        "frame_name": "test_api_tracer",
-        "filename": "test_api_tracer.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "a"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 6,
-            "index": 0,
-            "offset": 10,
+    "response": {
+        "metadata": {
+            "frame_id": "test_api_tracer",
+            "frame_name": "test_api_tracer",
             "filename": "test_api_tracer.py",
-            "id": "test_api_tracer:0",
-            "target": "a",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {}
+            "defined_lineno": 4
+        },
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 6,
+                "index": 0,
+                "offset": 10,
+                "filename": "test_api_tracer.py",
+                "id": "test_api_tracer:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

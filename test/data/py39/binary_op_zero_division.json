@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "binary_op_zero_division",
+            "frame_name": "binary_op_zero_division",
+            "filename": "test_exception.py",
+            "defined_lineno": 19
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 21,
+                "index": 0,
+                "offset": 52,
+                "filename": "test_exception.py",
+                "id": "test_binary_op_zero_division:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

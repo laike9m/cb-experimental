@@ -1,0 +1,38 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "store_subscr_type_error",
+            "frame_name": "store_subscr_type_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 28
+        },
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 30,
+                "index": 0,
+                "offset": 14,
+                "filename": "test_exception.py",
+                "id": "test_store_subscr_type_error:0",
+                "target": "a",
+                "value": "[]",
+                "repr": "()",
+                "type": "Binding"
+            },
+            {
+                "lineno": 31,
+                "index": 1,
+                "offset": 36,
+                "filename": "test_exception.py",
+                "id": "test_store_subscr_type_error:1",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

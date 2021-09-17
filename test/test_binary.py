@@ -1,7 +1,7 @@
 from cyberbrain import Binding, InitialValue, Symbol
 
 
-def test_binary_operation(tracer, mocked_responses):
+def test_binary_operation(tracer, check_tracer_events, mocked_responses):
     a = b = 1
     lst = [0, 1]
 

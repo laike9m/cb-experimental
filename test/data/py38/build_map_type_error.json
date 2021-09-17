@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "build_map_type_error",
+            "frame_name": "build_map_type_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 100
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 102,
+                "index": 0,
+                "offset": 34,
+                "filename": "test_exception.py",
+                "id": "test_build_map_type_error:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

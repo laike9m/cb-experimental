@@ -1,26 +1,28 @@
 {
-    "metadata": {
-        "frame_id": "test_try_except_finally",
-        "frame_name": "test_try_except_finally",
-        "filename": "test_block.py",
-        "defined_lineno": 38
-    },
-    "identifiers": [
-        "b"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": 46,
-            "index": 0,
-            "offset": 46,
+    "response": {
+        "metadata": {
+            "frame_id": "test_try_except_finally",
+            "frame_name": "test_try_except_finally",
             "filename": "test_block.py",
-            "id": "test_try_except_finally:0",
-            "target": "b",
-            "value": "1",
-            "repr": "1",
-            "type": "Binding"
-        }
-    ],
-    "tracingResult": {}
+            "defined_lineno": 38
+        },
+        "identifiers": [
+            "b"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 46,
+                "index": 0,
+                "offset": 46,
+                "filename": "test_block.py",
+                "id": "test_try_except_finally:0",
+                "target": "b",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
 }

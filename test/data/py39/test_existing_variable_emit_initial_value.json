@@ -1,42 +1,44 @@
 {
-    "metadata": {
-        "frame_id": "test_existing_variable_emit_initial_value",
-        "frame_name": "test_existing_variable_emit_initial_value",
-        "filename": "test_initial_value.py",
-        "defined_lineno": 4
-    },
-    "identifiers": [
-        "x",
-        "y"
-    ],
-    "loops": [],
-    "events": [
-        {
-            "lineno": -1,
-            "index": 0,
-            "offset": 12,
+    "response": {
+        "metadata": {
+            "frame_id": "test_existing_variable_emit_initial_value",
+            "frame_name": "test_existing_variable_emit_initial_value",
             "filename": "test_initial_value.py",
-            "id": "test_existing_variable_emit_initial_value:0",
-            "target": "x",
-            "value": "\"foo\"",
-            "repr": "\"foo\"",
-            "type": "InitialValue"
+            "defined_lineno": 4
         },
-        {
-            "lineno": 7,
-            "index": 1,
-            "offset": 14,
-            "filename": "test_initial_value.py",
-            "id": "test_existing_variable_emit_initial_value:1",
-            "target": "y",
-            "value": "\"foo\"",
-            "repr": "\"foo\"",
-            "type": "Binding"
+        "identifiers": [
+            "x",
+            "y"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": -1,
+                "index": 0,
+                "offset": 12,
+                "filename": "test_initial_value.py",
+                "id": "test_existing_variable_emit_initial_value:0",
+                "target": "x",
+                "value": "\"foo\"",
+                "repr": "\"foo\"",
+                "type": "InitialValue"
+            },
+            {
+                "lineno": 7,
+                "index": 1,
+                "offset": 14,
+                "filename": "test_initial_value.py",
+                "id": "test_existing_variable_emit_initial_value:1",
+                "target": "y",
+                "value": "\"foo\"",
+                "repr": "\"foo\"",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {
+            "test_existing_variable_emit_initial_value:1": [
+                "test_existing_variable_emit_initial_value:0"
+            ]
         }
-    ],
-    "tracingResult": {
-        "test_existing_variable_emit_initial_value:1": [
-            "test_existing_variable_emit_initial_value:0"
-        ]
     }
 }

@@ -1,0 +1,52 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "test_import",
+            "frame_name": "test_import",
+            "filename": "test_import.py",
+            "defined_lineno": 6
+        },
+        "identifiers": [
+            "os",
+            "path",
+            "settrace"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 9,
+                "index": 0,
+                "offset": 14,
+                "filename": "test_import.py",
+                "id": "test_import:0",
+                "target": "os",
+                "value": "\"<module 'os' from '/Users/victor/opt/anaconda3/envs/test37/lib/python3.7/os.py'>\"",
+                "repr": "<module 'os' from '/Users/vi.../test37/lib/python3.7/os.py'>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 10,
+                "index": 1,
+                "offset": 24,
+                "filename": "test_import.py",
+                "id": "test_import:1",
+                "target": "path",
+                "value": "\"<module 'posixpath' from '/Users/victor/opt/anaconda3/envs/test37/lib/python3.7/posixpath.py'>\"",
+                "repr": "<module 'posixpath' from '/U.../lib/python3.7/posixpath.py'>",
+                "type": "Binding"
+            },
+            {
+                "lineno": 11,
+                "index": 2,
+                "offset": 36,
+                "filename": "test_import.py",
+                "id": "test_import:2",
+                "target": "settrace",
+                "value": "{\"repr\": \"<built-in function settrace>\"}",
+                "repr": "<built-in function settrace>",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

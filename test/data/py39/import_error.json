@@ -1,0 +1,25 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "import_error",
+            "frame_name": "import_error",
+            "filename": "test_exception.py",
+            "defined_lineno": 48
+        },
+        "identifiers": [],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 53,
+                "index": 0,
+                "offset": 106,
+                "filename": "test_exception.py",
+                "id": "test_import_error:0",
+                "value": "null",
+                "repr": "None",
+                "type": "Return"
+            }
+        ],
+        "tracingResult": {}
+    }
+}

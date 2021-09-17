@@ -1,7 +1,7 @@
 from cyberbrain import InitialValue, Binding, Symbol
 
 
-def test_mutation(tracer):
+def test_mutation(tracer, mocked_responses):
     text = "AAAA"
 
     tracer.start()

@@ -1,0 +1,28 @@
+{
+    "response": {
+        "metadata": {
+            "frame_id": "test_call_tracer_multiple_times",
+            "frame_name": "test_call_tracer_multiple_times",
+            "filename": "test_api_state.py",
+            "defined_lineno": 4
+        },
+        "identifiers": [
+            "a"
+        ],
+        "loops": [],
+        "events": [
+            {
+                "lineno": 6,
+                "index": 0,
+                "offset": 10,
+                "filename": "test_api_state.py",
+                "id": "test_call_tracer_multiple_times:0",
+                "target": "a",
+                "value": "1",
+                "repr": "1",
+                "type": "Binding"
+            }
+        ],
+        "tracingResult": {}
+    }
+}
